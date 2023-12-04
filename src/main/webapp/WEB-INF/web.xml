@@ -1,0 +1,19 @@
+<!-- 생성한 서블릿을 인식시키기 위한 설정 -->
+<web-app>
+    <display-name>demo5</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.example.demo5.HelloServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/helloservlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
